@@ -204,6 +204,17 @@ a:hover {
   box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.75);
   border: 1px solid black;
 }
+@keyframes btn {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(8%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
 footer {
   color: #81848E;
   background: #F6F6F6;
@@ -271,6 +282,9 @@ footer {
   color: #F6F6F6;
   border: none;
   font-family: 'Ubuntu', sans-serif;
+  animation-name: btn;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
 }
 .home .walk .walk-text .btn:hover {
   border: 1px solid black;

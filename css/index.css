@@ -160,6 +160,11 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .container {
+    max-width: 500px;
+  }
+}
 .nav-bar {
   width: 100%;
   position: fixed;
@@ -208,6 +213,9 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home .intro {
+  color: #23293B;
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -224,6 +232,8 @@ footer {
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
+  box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.75);
+  border: 1px solid black;
 }
 .home .visit-planets {
   padding: 15px;
@@ -237,12 +247,12 @@ footer {
 .home .walk {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
-  padding: 50px 60px;
+  padding: 15px 15px;
   display: flex;
   justify-content: center;
 }
 .home .walk .walk-text {
-  width: 50%;
+  width: 100%;
 }
 .home .walk .walk-text h3 {
   margin-bottom: 10px;
@@ -250,12 +260,57 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.75);
+  border: 1px solid black;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background: #22283A;
+  color: #F6F6F6;
+  border: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+.home .walk .walk-text .btn:hover {
+  border: 1px solid black;
+  background: darkgoldenrod;
+  color: black;
+}
 .home .walk .walk-img {
-  width: 46%;
-  margin-left: 4%;
+  width: 100%;
+  box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.75);
+  border: 1px solid black;
+  border-radius: 20px;
 }
 .home .walk .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .space-images {
+    flex-direction: column;
+    align-content: center;
+  }
+  .home .space-images img {
+    width: 90%;
+  }
+  .home .space-images .sky {
+    display: none;
+  }
+  .home .space-images .launch {
+    display: none;
+  }
+  .home .walk {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .home .walk .walk-text h3 {
+    margin-top: 20px;
+  }
+  .home .walk .btn {
+    width: 100% !important;
+    height: 80px !important;
+    font-size: 2rem;
+  }
 }

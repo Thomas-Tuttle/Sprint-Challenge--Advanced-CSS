@@ -13,43 +13,53 @@
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+  <style type="text/css">* 
+  {cursor: url(http://cur.cursors-4u.net/mechanics/mec-1/mec5.cur), auto !important;}
+  </style><a href="http://www.cursors-4u.com/cursor/2005/04/22/mec5-10.html" target="_blank" title="Rocket Ship">
+  <img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Rocket Ship" style="position:absolute; top: 0px; right: 0px;" /></a>
+
 </head>
 
 <body>
 
-  <div class="nav-bar">
+       <!-- Thomas' code (nav)-->
+    <div id="test" class="nav-bar">
 
       
-    <h1>SpaceWalkers</h1>
+        <h1>SpaceWalkers</h1>
 
-    <nav>
+        <nav>
 
-        <a href="index.html">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Blog</a>
-        <a href="#">Contact</a>
-        <a href="#">Sign In</a>
+            <a href="index.html">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+            <a href="#">Sign In</a>
 
-    </nav>
+        </nav>
 
-</div>     
+    </div>     
+       <!-- Thomas' code -->
+      
 
   <div class="container home">
 
     <header class="intro">
+       <!-- Thomas' code (img)-->
+       <div class="main-img">
 
-      <div class="main-img">
-          <img class="main-header-img" src="img/main-header.png"/>
-      </div>
-      
-
+            <img class="main-header-img" src="img/main-header.png"/>
+ 
+       </div>
+       <!-- Thomas' code -->
       <h2>Lift Off</h2>
     
       <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
     </header>
-
+    
     <section class="space-images">
-        <img class="blast" src="img/blast.png" class="blast" alt="Rocket blasting off">
+        
+  <img class="blast" src="img/blast.png" class="blast" alt="Rocket blasting off">
         <img class="sky" src="img/sky.png" class="sky" alt="Space sky image">
         <img class="launch" src="img/launch.png" class="launch" alt="Launching rocket">
     </section>
@@ -71,14 +81,14 @@
       
         <p>Suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
       
-        <div class="btn">
+        <button class="btn">
           Sign Up
-        </div>
+        </button>
       </div>
       
-      <div class="walk-img">
-          <img src="img/space-walk.png" alt="Space walking astronaut">
-      </div>
+      
+          <img class="walk-img" src="img/space-walk.png" alt="Space walking astronaut">
+      
 
     </section>
 
@@ -87,5 +97,17 @@
     </footer>
 
   </div>
+  
+<script>
+ window.addEventListener('scroll', function() {
+    var currScrollPos2 = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    if (currScrollPos2 > 400) {
+      document.getElementById('test').style.opacity = -currScrollPos2 / 400 + 3;
+    }
+  }
+);
+
+</script>
+ 
 </body>
 </html>

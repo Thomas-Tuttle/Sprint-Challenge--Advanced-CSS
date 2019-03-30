@@ -330,3 +330,370 @@ footer {
     font-size: 2rem;
   }
 }
+
+.vader {
+  width: 25px;
+  height: 25px;
+  
+}
+
+.trooper {
+  width: 25px;
+  height: 25px;
+}
+
+.godark {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+.darkbody {
+  background: #22283A;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #5E6164;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.darkcontainer {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .darkcontainer {
+    max-width: 500px;
+  }
+}
+.darknav-bar {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #23293B;
+  margin-top: -20px;
+  padding-top: 20px;
+  border-bottom: 1px solid #454A59;
+}
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+h1 {
+  font-size: 4.2rem;
+}
+a {
+  margin-right: 2%;
+  margin-left: 2%;
+  color: rgb(168, 168, 168);
+  font-size: 1.6rem;
+  text-decoration: none;
+  padding-bottom: 13px;
+}
+a:hover {
+  color: cornflowerblue;
+}
+
+.darka {
+  color: black;
+}
+
+.darkmain-header-img {
+  border-radius: 5px;
+  margin-top: 115px;
+  width: 100%;
+  box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.75);
+  border: 1px solid rgb(0, 0, 0);
+}
+@keyframes btn {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(8%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+footer {
+  color: #5E6164;
+  background: #F6F6F6;
+  padding: 20px 0;
+  border: 1px double #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.darkfooter {
+  background: #22283A;
+  border: none;
+}
+
+.darktext {
+  color: #5E6164;
+}
+
+.darkhome .darkintro {
+  color: rgb(179, 179, 179);
+}
+.darkhome .darkintro h2 {
+  padding: 15px;
+}
+.darkhome .darkintro p {
+  padding: 0 15px;
+}
+.darkhome .darkspace-images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.darkhome .darkspace-images img {
+  width: 28%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+  height: 100%;
+  box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.75);
+  border: 1px solid rgb(0, 0, 0);
+}
+.darkhome .darkvisit-planets {
+  padding: 15px;
+}
+.darkhome .darkvisit-planets h3 {
+  margin-top: 11px;
+}
+.darkhome .visit-planets p {
+  margin-top: 13px;
+}
+.darkhome .darkwalk {
+  margin-top: 60px;
+  border-top: 1px solid #dee2e6;
+  padding: 15px 15px;
+  display: flex;
+  justify-content: center;
+}
+.darkhome .darkwalk .darkwalk-text {
+  width: 100%;
+}
+.darkhome .darkwalk .darkwalk-text h3 {
+  margin-bottom: 10px;
+}
+.darkhome .darkwalk .darkwalk-text p {
+  margin-bottom: 26px;
+}
+.darkhome .darkwalk .darkwalk-text .darkbtn {
+  box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.75);
+  border: 1px solid rgb(0, 0, 0);
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgb(28, 44, 94);
+  color: rgb(175, 175, 175);
+  border: none;
+  font-family: 'Ubuntu', sans-serif;
+  animation-name: btn;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+.darkhome .darkwalk .darkwalk-text .darkbtn:hover {
+  border: 2px solid rgb(0, 0, 0);
+  background: darkgoldenrod;
+  color: black;
+}
+.darkhome .darkwalk .darkwalk-img {
+  width: 100%;
+  box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.75);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+}
+.darkhome .darkwalk .darkwalk-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .darkhome .darkspace-images {
+    flex-direction: column;
+    align-content: center;
+  }
+  .darkhome .darkspace-images img {
+    width: 90%;
+  }
+  .darkhome .darkspace-images .darksky {
+    display: none;
+  }
+  .darkhome .darkspace-images .darklaunch {
+    display: none;
+  }
+  .darkhome .darkwalk {
+    width: 100%;
+    margin-top: 15px;
+    flex-direction: column-reverse;
+  }
+  .darkhome .darkwalk .darkwalk-text h3 {
+    margin-top: 20px;
+  }
+  .darkhome .darkwalk .darkbtn {
+    width: 100% !important;
+    height: 80px !important;
+    font-size: 2rem;
+  }
+}
+
+

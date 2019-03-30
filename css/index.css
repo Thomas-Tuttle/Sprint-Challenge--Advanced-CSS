@@ -623,7 +623,7 @@ footer {
 }
 .darkhome .darkwalk {
   margin-top: 60px;
-  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #454A59;
   padding: 15px 15px;
   display: flex;
   justify-content: center;
